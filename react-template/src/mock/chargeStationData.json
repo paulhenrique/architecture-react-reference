@@ -1,0 +1,122 @@
+{
+  "chargeStationData": [
+    {
+      "identification": "7242125824",
+      "name": "DHL CPFL",
+      "address": {
+        "street": "RODOVIA ENGENHEIRO MIGUEL NOEL NASCENTES BURNIER",
+        "number": 1755,
+        "complement": "",
+        "superDivision": "CHÁCARA PRIMAVERA",
+        "city": "CAMPINAS",
+        "zipCode": "13088900",
+        "state": {
+          "code": "SP",
+          "name": "SAO PAULO"
+        },
+        "country": {
+          "code": "BR",
+          "name": "BRASIL",
+          "defaultCountry": true
+        }
+      },
+      "owner": null,
+      "additionalInformations": null,
+      "locationPoints": null,
+      "photos": null,
+      "latitude": -22.85709959573233,
+      "longitude": -47.04526810846547,
+      "lastUpdateDate": "2024-03-08T16:13:22"
+    },
+    {
+      "identification": "7355088231",
+      "name": "Estação Alphaville",
+      "address": {
+        "street": "RUA  JOÃO SALIM",
+        "number": 1000,
+        "complement": "",
+        "superDivision": "PARQUE XANGRILÁ",
+        "city": "CAMPINAS",
+        "zipCode": "13098606",
+        "state": {
+          "code": "SP",
+          "name": "SAO PAULO"
+        },
+        "country": {
+          "code": "BR",
+          "name": "BRASIL",
+          "defaultCountry": true
+        }
+      },
+      "owner": null,
+      "additionalInformations": null,
+      "locationPoints": null,
+      "photos": null,
+      "latitude": -22.80125681338959,
+      "longitude": -47.02056813997925,
+      "lastUpdateDate": "2023-11-23T15:04:23"
+    },
+    {
+      "identification": "9111877377",
+      "name": "Estação Teste do Derick",
+      "address": {
+        "street": "RUA  ROSA LOPES",
+        "number": 232,
+        "complement": "",
+        "superDivision": "JARDIM PAULISTANO",
+        "city": "CAMPINAS",
+        "zipCode": "13026350",
+        "state": {
+          "code": "SP",
+          "name": "SAO PAULO"
+        },
+        "country": {
+          "code": "BR",
+          "name": "BRASIL",
+          "defaultCountry": true
+        }
+      },
+      "owner": null,
+      "additionalInformations": null,
+      "locationPoints": null,
+      "photos": null,
+      "latitude": -22.80126681338959,
+      "longitude": -47.02057813997925,
+      "lastUpdateDate": "2024-03-08T13:50:51"
+    },
+    {
+      "identification": "5022892233",
+      "name": "POLIS CPQD",
+      "address": {
+        "street": "RUA DOUTOR RICARDO BENETTON MARTINS",
+        "number": 1000,
+        "complement": "",
+        "superDivision": "POLO II DE ALTA TECNOLOGIA (CAMPINAS)",
+        "city": "CAMPINAS",
+        "zipCode": "13086902",
+        "state": {
+          "code": "SP",
+          "name": "SAO PAULO"
+        },
+        "country": {
+          "code": "BR",
+          "name": "BRASIL",
+          "defaultCountry": true
+        }
+      },
+      "owner": null,
+      "additionalInformations": null,
+      "locationPoints": null,
+      "photos": null,
+      "latitude": -22.81614946671662,
+      "longitude": -47.0465264022976,
+      "lastUpdateDate": "2023-11-23T15:03:12"
+    }
+  ],
+  "pagination": {
+    "totalPages": 1,
+    "totalElements": 4,
+    "pageNo": 0,
+    "pageSize": 4
+  }
+}

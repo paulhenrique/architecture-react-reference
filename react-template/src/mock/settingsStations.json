@@ -1,0 +1,34 @@
+{
+  "settingsStations": [
+    {
+      "rechargeStation": "DHL CPFL",
+      "contractedDemand": 3000,
+      "rechargePrioritization": "Mais rápida",
+      "maxDefaultPotency": 3000
+    },
+    {
+      "rechargeStation": "Estação Alphaville",
+      "contractedDemand": 5000,
+      "rechargePrioritization": "Menor sobrecarga",
+      "maxDefaultPotency": 4800
+    },
+    {
+      "rechargeStation": "Estação Teste do Derick",
+      "contractedDemand": 31680,
+      "rechargePrioritization": "Equilíbrio",
+      "maxDefaultPotency": 31680
+    },
+    {
+      "rechargeStation": "POLIS CPQD",
+      "contractedDemand": 40000,
+      "rechargePrioritization": "Menor sobrecarga",
+      "maxDefaultPotency": 35000
+    },
+    {
+      "rechargeStation": "Estação Teste do Derick",
+      "contractedDemand": 1500,
+      "rechargePrioritization": "Mais rápida",
+      "maxDefaultPotency": 1350
+    }
+  ]
+}

@@ -1,0 +1,2846 @@
+{
+  "chargePointData": [
+    {
+      "identification": "ABBTACW745020G0166",
+      "deviceIdentification": "7415ca",
+      "externalIdentification": "100210",
+      "chargePointSerialNumber": "TACW745020G0166",
+      "chargeBoxSerialNumber": "ABBTACW745020G0166",
+      "chargePointVendor": "ABB",
+      "chargePointModel": "CDT_TACW7::NET_WIFI",
+      "firmwareVersion": "TAC1Z9118606710273::V1.8.0",
+      "ocppProtocolVersion": null,
+      "iccid": "89551025239003032316",
+      "imsi": "724102592371181",
+      "meterSerialNumber": null,
+      "meterType": "V1",
+      "latitude": -22.81614708129809,
+      "longitude": -47.04655142751726,
+      "chargeStation": {
+        "identification": "5022892233",
+        "name": "POLIS CPQD",
+        "address": {
+          "street": "RUA DOUTOR RICARDO BENETTON MARTINS",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "POLO II DE ALTA TECNOLOGIA (CAMPINAS)",
+          "city": "CAMPINAS",
+          "zipCode": "13086902",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "TIPO_VAGA",
+              "name": "Tipo de estacionamento",
+              "description": "Qual é o tipo de estacionamento onde os EPs estão instalados?",
+              "listValues": [
+                {
+                  "code": "ON_DRIVEWAY",
+                  "name": "Entrada de veículos"
+                },
+                {
+                  "code": "UNDERGROUND_GARAGE",
+                  "name": "Garagem subterrânea"
+                },
+                {
+                  "code": "ON_STREET",
+                  "name": "Na rua"
+                },
+                {
+                  "code": "PARKING_GARAGE",
+                  "name": "Privado"
+                },
+                {
+                  "code": "ALONG_MOTORWAY",
+                  "name": "Próximo estrada"
+                },
+                {
+                  "code": "PARKING_LOT",
+                  "name": "Público"
+                }
+              ],
+              "type": "ListValues",
+              "defaultValue": ""
+            },
+            "value": "PARKING_GARAGE"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.81614946671662,
+        "longitude": -47.0465264022976,
+        "lastUpdateDate": "2023-11-23T15:03:12"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2",
+              "name": "Tipo 2 (Mennekes)"
+            },
+            "electricitySupply": "AC_1",
+            "format": "Cable",
+            "maxElectricPower": 7.4,
+            "maxVoltage": 240.0,
+            "maxAmperage": 32.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-04-19T16:07:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-04-19T16:07:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "7483049515",
+        "name": "ABBTACW7",
+        "model": {
+          "identification": "CDT_TACW7::NET_4G",
+          "name": "TACW7",
+          "vendor": {
+            "identification": "ABB",
+            "name": "ABB"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 90,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2024-04-19T16:07:00"
+    },
+    {
+      "identification": "ELEBB04023Z007",
+      "deviceIdentification": "763921",
+      "externalIdentification": "100234",
+      "chargePointSerialNumber": "ELEBB04023Z007",
+      "chargeBoxSerialNumber": "ELEBB04023Z007",
+      "chargePointVendor": "ELETRICUS",
+      "chargePointModel": "EVMS-30",
+      "firmwareVersion": "125107-102104159149116113-0194-040103F8",
+      "ocppProtocolVersion": null,
+      "iccid": "8931080019083732769",
+      "imsi": "204080819138795",
+      "meterSerialNumber": "181184951512",
+      "meterType": "DC",
+      "latitude": -22.81615304402964,
+      "longitude": -47.04664302087038,
+      "chargeStation": {
+        "identification": "5022892233",
+        "name": "POLIS CPQD",
+        "address": {
+          "street": "RUA DOUTOR RICARDO BENETTON MARTINS",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "POLO II DE ALTA TECNOLOGIA (CAMPINAS)",
+          "city": "CAMPINAS",
+          "zipCode": "13086902",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "TIPO_VAGA",
+              "name": "Tipo de estacionamento",
+              "description": "Qual é o tipo de estacionamento onde os EPs estão instalados?",
+              "listValues": [
+                {
+                  "code": "ON_DRIVEWAY",
+                  "name": "Entrada de veículos"
+                },
+                {
+                  "code": "UNDERGROUND_GARAGE",
+                  "name": "Garagem subterrânea"
+                },
+                {
+                  "code": "ON_STREET",
+                  "name": "Na rua"
+                },
+                {
+                  "code": "PARKING_GARAGE",
+                  "name": "Privado"
+                },
+                {
+                  "code": "ALONG_MOTORWAY",
+                  "name": "Próximo estrada"
+                },
+                {
+                  "code": "PARKING_LOT",
+                  "name": "Público"
+                }
+              ],
+              "type": "ListValues",
+              "defaultValue": ""
+            },
+            "value": "PARKING_GARAGE"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.81614946671662,
+        "longitude": -47.0465264022976,
+        "lastUpdateDate": "2023-11-23T15:03:12"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "DC",
+            "format": "Cable",
+            "maxElectricPower": 30.0,
+            "maxVoltage": 999.99,
+            "maxAmperage": 100.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-03-13T10:50:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-03-13T10:50:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "7610337197",
+        "name": "ELETRICUS",
+        "model": {
+          "identification": "EVMS-30",
+          "name": "EVMS-30",
+          "vendor": {
+            "identification": "ELETRICUS",
+            "name": "ELETRICUS"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 300,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2024-03-13T10:50:00"
+    },
+    {
+      "identification": "ELEBB04023Z010",
+      "deviceIdentification": "2f5808",
+      "externalIdentification": "100218",
+      "chargePointSerialNumber": "ELEBB04023Z010",
+      "chargeBoxSerialNumber": "ELEBB04023Z010",
+      "chargePointVendor": "ELETRICUS",
+      "chargePointModel": "EVMS-30",
+      "firmwareVersion": "125107-102104149116113-019b-040103F8",
+      "ocppProtocolVersion": null,
+      "iccid": "8931080019083732769",
+      "imsi": "204080819138795",
+      "meterSerialNumber": "181184951512",
+      "meterType": "ThreePhaseAC",
+      "latitude": -22.8161490310488,
+      "longitude": -47.0465774010346,
+      "chargeStation": {
+        "identification": "5022892233",
+        "name": "POLIS CPQD",
+        "address": {
+          "street": "RUA DOUTOR RICARDO BENETTON MARTINS",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "POLO II DE ALTA TECNOLOGIA (CAMPINAS)",
+          "city": "CAMPINAS",
+          "zipCode": "13086902",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "TIPO_VAGA",
+              "name": "Tipo de estacionamento",
+              "description": "Qual é o tipo de estacionamento onde os EPs estão instalados?",
+              "listValues": [
+                {
+                  "code": "ON_DRIVEWAY",
+                  "name": "Entrada de veículos"
+                },
+                {
+                  "code": "UNDERGROUND_GARAGE",
+                  "name": "Garagem subterrânea"
+                },
+                {
+                  "code": "ON_STREET",
+                  "name": "Na rua"
+                },
+                {
+                  "code": "PARKING_GARAGE",
+                  "name": "Privado"
+                },
+                {
+                  "code": "ALONG_MOTORWAY",
+                  "name": "Próximo estrada"
+                },
+                {
+                  "code": "PARKING_LOT",
+                  "name": "Público"
+                }
+              ],
+              "type": "ListValues",
+              "defaultValue": ""
+            },
+            "value": "PARKING_GARAGE"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.81614946671662,
+        "longitude": -47.0465264022976,
+        "lastUpdateDate": "2023-11-23T15:03:12"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "DC",
+            "format": "Cable",
+            "maxElectricPower": 30.0,
+            "maxVoltage": 999.99,
+            "maxAmperage": 100.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2023-11-01T11:55:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2023-11-01T11:55:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "7610337197",
+        "name": "ELETRICUS",
+        "model": {
+          "identification": "EVMS-30",
+          "name": "EVMS-30",
+          "vendor": {
+            "identification": "ELETRICUS",
+            "name": "ELETRICUS"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 900,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2023-11-01T11:55:00"
+    },
+    {
+      "identification": "ELEBB04023Z015",
+      "deviceIdentification": "846059",
+      "externalIdentification": "100230",
+      "chargePointSerialNumber": "BB04023Z015",
+      "chargeBoxSerialNumber": "ELEBB04023Z015",
+      "chargePointVendor": "ELETRICUS",
+      "chargePointModel": "EVMS-30",
+      "firmwareVersion": "140c10a-102104155118118-0194-040103F8",
+      "ocppProtocolVersion": null,
+      "iccid": "8931080019083732769",
+      "imsi": "204080819138795",
+      "meterSerialNumber": "181184951512",
+      "meterType": "ThreePhaseAC",
+      "latitude": -22.81615273955365,
+      "longitude": -47.04665937866696,
+      "chargeStation": {
+        "identification": "5022892233",
+        "name": "POLIS CPQD",
+        "address": {
+          "street": "RUA DOUTOR RICARDO BENETTON MARTINS",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "POLO II DE ALTA TECNOLOGIA (CAMPINAS)",
+          "city": "CAMPINAS",
+          "zipCode": "13086902",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "TIPO_VAGA",
+              "name": "Tipo de estacionamento",
+              "description": "Qual é o tipo de estacionamento onde os EPs estão instalados?",
+              "listValues": [
+                {
+                  "code": "ON_DRIVEWAY",
+                  "name": "Entrada de veículos"
+                },
+                {
+                  "code": "UNDERGROUND_GARAGE",
+                  "name": "Garagem subterrânea"
+                },
+                {
+                  "code": "ON_STREET",
+                  "name": "Na rua"
+                },
+                {
+                  "code": "PARKING_GARAGE",
+                  "name": "Privado"
+                },
+                {
+                  "code": "ALONG_MOTORWAY",
+                  "name": "Próximo estrada"
+                },
+                {
+                  "code": "PARKING_LOT",
+                  "name": "Público"
+                }
+              ],
+              "type": "ListValues",
+              "defaultValue": ""
+            },
+            "value": "PARKING_GARAGE"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.81614946671662,
+        "longitude": -47.0465264022976,
+        "lastUpdateDate": "2023-11-23T15:03:12"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "DC",
+            "format": "Cable",
+            "maxElectricPower": 30.0,
+            "maxVoltage": 999.99,
+            "maxAmperage": 100.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-04-24T08:13:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-04-24T08:13:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "7610337197",
+        "name": "ELETRICUS",
+        "model": {
+          "identification": "EVMS-30",
+          "name": "EVMS-30",
+          "vendor": {
+            "identification": "ELETRICUS",
+            "name": "ELETRICUS"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 300,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2024-04-24T08:13:00"
+    },
+    {
+      "identification": "ELEBB04023Z023",
+      "deviceIdentification": "c9ccb6",
+      "externalIdentification": "100231",
+      "chargePointSerialNumber": "ELEBB04023Z023",
+      "chargeBoxSerialNumber": "ELEBB04023Z023",
+      "chargePointVendor": "ELETRICUS",
+      "chargePointModel": "EVMS-30",
+      "firmwareVersion": "125107-102104149116113-0194-040303FE",
+      "ocppProtocolVersion": null,
+      "iccid": "8931080019083732769",
+      "imsi": "204080819138795",
+      "meterSerialNumber": "181184951512",
+      "meterType": "ThreePhaseAC",
+      "latitude": -22.81615428476397,
+      "longitude": -47.04666479149542,
+      "chargeStation": {
+        "identification": "5022892233",
+        "name": "POLIS CPQD",
+        "address": {
+          "street": "RUA DOUTOR RICARDO BENETTON MARTINS",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "POLO II DE ALTA TECNOLOGIA (CAMPINAS)",
+          "city": "CAMPINAS",
+          "zipCode": "13086902",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "TIPO_VAGA",
+              "name": "Tipo de estacionamento",
+              "description": "Qual é o tipo de estacionamento onde os EPs estão instalados?",
+              "listValues": [
+                {
+                  "code": "ON_DRIVEWAY",
+                  "name": "Entrada de veículos"
+                },
+                {
+                  "code": "UNDERGROUND_GARAGE",
+                  "name": "Garagem subterrânea"
+                },
+                {
+                  "code": "ON_STREET",
+                  "name": "Na rua"
+                },
+                {
+                  "code": "PARKING_GARAGE",
+                  "name": "Privado"
+                },
+                {
+                  "code": "ALONG_MOTORWAY",
+                  "name": "Próximo estrada"
+                },
+                {
+                  "code": "PARKING_LOT",
+                  "name": "Público"
+                }
+              ],
+              "type": "ListValues",
+              "defaultValue": ""
+            },
+            "value": "PARKING_GARAGE"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.81614946671662,
+        "longitude": -47.0465264022976,
+        "lastUpdateDate": "2023-11-23T15:03:12"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "DC",
+            "format": "Cable",
+            "maxElectricPower": 30.0,
+            "maxVoltage": 999.99,
+            "maxAmperage": 100.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-03-06T11:09:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-03-06T11:09:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "7610337197",
+        "name": "ELETRICUS",
+        "model": {
+          "identification": "EVMS-30",
+          "name": "EVMS-30",
+          "vendor": {
+            "identification": "ELETRICUS",
+            "name": "ELETRICUS"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 450,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2024-03-06T11:09:00"
+    },
+    {
+      "identification": "EPPARREIRA",
+      "deviceIdentification": "146b36",
+      "externalIdentification": "100214",
+      "chargePointSerialNumber": "avt.001.13.1.01",
+      "chargeBoxSerialNumber": "avt0011212",
+      "chargePointVendor": "AVT-Company",
+      "chargePointModel": "AVT-Express",
+      "firmwareVersion": "0.9.87",
+      "ocppProtocolVersion": null,
+      "iccid": "ICCID",
+      "imsi": "IMSI",
+      "meterSerialNumber": "avt.001.13.1.01",
+      "meterType": "AVT NQC-ACDC",
+      "latitude": -22.8161637867297,
+      "longitude": -47.04659993273297,
+      "chargeStation": {
+        "identification": "5022892233",
+        "name": "POLIS CPQD",
+        "address": {
+          "street": "RUA DOUTOR RICARDO BENETTON MARTINS",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "POLO II DE ALTA TECNOLOGIA (CAMPINAS)",
+          "city": "CAMPINAS",
+          "zipCode": "13086902",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "TIPO_VAGA",
+              "name": "Tipo de estacionamento",
+              "description": "Qual é o tipo de estacionamento onde os EPs estão instalados?",
+              "listValues": [
+                {
+                  "code": "ON_DRIVEWAY",
+                  "name": "Entrada de veículos"
+                },
+                {
+                  "code": "UNDERGROUND_GARAGE",
+                  "name": "Garagem subterrânea"
+                },
+                {
+                  "code": "ON_STREET",
+                  "name": "Na rua"
+                },
+                {
+                  "code": "PARKING_GARAGE",
+                  "name": "Privado"
+                },
+                {
+                  "code": "ALONG_MOTORWAY",
+                  "name": "Próximo estrada"
+                },
+                {
+                  "code": "PARKING_LOT",
+                  "name": "Público"
+                }
+              ],
+              "type": "ListValues",
+              "defaultValue": ""
+            },
+            "value": "PARKING_GARAGE"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.81614946671662,
+        "longitude": -47.0465264022976,
+        "lastUpdateDate": "2023-11-23T15:03:12"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "AC_1",
+            "format": "Socket",
+            "maxElectricPower": 7.0,
+            "maxVoltage": 380.0,
+            "maxAmperage": 63.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Charging",
+            "name": "Carregando",
+            "situation": "InUse",
+            "description": "Quando o contato de um conector fecha, permitindo que o veículo carregue"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-04-19T16:07:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-04-19T16:07:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "V4",
+        "name": "CCS2",
+        "model": {
+          "identification": "DC Wallbox CE",
+          "name": "DC Wallbox CE",
+          "vendor": {
+            "identification": "pt.abb",
+            "name": "ABB"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 90,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2024-04-19T16:07:00"
+    },
+    {
+      "identification": "EWOLF-26",
+      "deviceIdentification": "62fbd6",
+      "externalIdentification": "100238",
+      "chargePointSerialNumber": "EWOLF-26",
+      "chargeBoxSerialNumber": "SN020000000000",
+      "chargePointVendor": "SETEC-POWER",
+      "chargePointModel": "DC",
+      "firmwareVersion": "1.6.200.231212",
+      "ocppProtocolVersion": null,
+      "iccid": null,
+      "imsi": null,
+      "meterSerialNumber": null,
+      "meterType": "Internal Meter",
+      "latitude": -22.81614377733343,
+      "longitude": -47.04662424728929,
+      "chargeStation": {
+        "identification": "5022892233",
+        "name": "POLIS CPQD",
+        "address": {
+          "street": "RUA DOUTOR RICARDO BENETTON MARTINS",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "POLO II DE ALTA TECNOLOGIA (CAMPINAS)",
+          "city": "CAMPINAS",
+          "zipCode": "13086902",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "TIPO_VAGA",
+              "name": "Tipo de estacionamento",
+              "description": "Qual é o tipo de estacionamento onde os EPs estão instalados?",
+              "listValues": [
+                {
+                  "code": "ON_DRIVEWAY",
+                  "name": "Entrada de veículos"
+                },
+                {
+                  "code": "UNDERGROUND_GARAGE",
+                  "name": "Garagem subterrânea"
+                },
+                {
+                  "code": "ON_STREET",
+                  "name": "Na rua"
+                },
+                {
+                  "code": "PARKING_GARAGE",
+                  "name": "Privado"
+                },
+                {
+                  "code": "ALONG_MOTORWAY",
+                  "name": "Próximo estrada"
+                },
+                {
+                  "code": "PARKING_LOT",
+                  "name": "Público"
+                }
+              ],
+              "type": "ListValues",
+              "defaultValue": ""
+            },
+            "value": "PARKING_GARAGE"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.81614946671662,
+        "longitude": -47.0465264022976,
+        "lastUpdateDate": "2023-11-23T15:03:12"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "DC",
+            "format": "Cable",
+            "maxElectricPower": 30.0,
+            "maxVoltage": 999.99,
+            "maxAmperage": 100.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": false,
+          "statusBeforeHeartbeat": null,
+          "errorBeforeHeartbeat": null,
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "",
+          "updateDatetime": "2024-04-24T09:29:44"
+        },
+        {
+          "heartbeat": false,
+          "statusBeforeHeartbeat": null,
+          "errorBeforeHeartbeat": null,
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "",
+          "updateDatetime": "2024-04-24T09:29:48"
+        }
+      ],
+      "modelVariation": {
+        "identification": "1107225056",
+        "name": "eWolf",
+        "model": {
+          "identification": "DC",
+          "name": "DC30kW",
+          "vendor": {
+            "identification": "SETEC-POWER",
+            "name": "SETEC-POWER"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 900,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2024-04-24T09:29:48"
+    },
+    {
+      "identification": "EWOLF-27",
+      "deviceIdentification": "98ab4c",
+      "externalIdentification": "100239",
+      "chargePointSerialNumber": "EWOLF-26",
+      "chargeBoxSerialNumber": "SN020000000000",
+      "chargePointVendor": "SETEC-POWER",
+      "chargePointModel": "DC",
+      "firmwareVersion": "1.33.230504",
+      "ocppProtocolVersion": null,
+      "iccid": null,
+      "imsi": null,
+      "meterSerialNumber": null,
+      "meterType": "Internal Meter",
+      "latitude": -22.81613841684594,
+      "longitude": -47.04661418900549,
+      "chargeStation": {
+        "identification": "5022892233",
+        "name": "POLIS CPQD",
+        "address": {
+          "street": "RUA DOUTOR RICARDO BENETTON MARTINS",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "POLO II DE ALTA TECNOLOGIA (CAMPINAS)",
+          "city": "CAMPINAS",
+          "zipCode": "13086902",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "TIPO_VAGA",
+              "name": "Tipo de estacionamento",
+              "description": "Qual é o tipo de estacionamento onde os EPs estão instalados?",
+              "listValues": [
+                {
+                  "code": "ON_DRIVEWAY",
+                  "name": "Entrada de veículos"
+                },
+                {
+                  "code": "UNDERGROUND_GARAGE",
+                  "name": "Garagem subterrânea"
+                },
+                {
+                  "code": "ON_STREET",
+                  "name": "Na rua"
+                },
+                {
+                  "code": "PARKING_GARAGE",
+                  "name": "Privado"
+                },
+                {
+                  "code": "ALONG_MOTORWAY",
+                  "name": "Próximo estrada"
+                },
+                {
+                  "code": "PARKING_LOT",
+                  "name": "Público"
+                }
+              ],
+              "type": "ListValues",
+              "defaultValue": ""
+            },
+            "value": "PARKING_GARAGE"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.81614946671662,
+        "longitude": -47.0465264022976,
+        "lastUpdateDate": "2023-11-23T15:03:12"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "DC",
+            "format": "Cable",
+            "maxElectricPower": 30.0,
+            "maxVoltage": 999.99,
+            "maxAmperage": 100.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-04-18T16:13:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-04-18T16:13:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "1107225056",
+        "name": "eWolf",
+        "model": {
+          "identification": "DC",
+          "name": "DC30kW",
+          "vendor": {
+            "identification": "SETEC-POWER",
+            "name": "SETEC-POWER"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 90,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2024-04-18T16:13:00"
+    },
+    {
+      "identification": "EWOLF-28",
+      "deviceIdentification": "28d214",
+      "externalIdentification": "100240",
+      "chargePointSerialNumber": "EWOLF-28",
+      "chargeBoxSerialNumber": "SN020000000000",
+      "chargePointVendor": "SETEC-POWER",
+      "chargePointModel": "DC",
+      "firmwareVersion": "1.6.200.231212",
+      "ocppProtocolVersion": null,
+      "iccid": null,
+      "imsi": null,
+      "meterSerialNumber": null,
+      "meterType": "Internal Meter",
+      "latitude": -22.81613141001258,
+      "longitude": -47.0466505690846,
+      "chargeStation": {
+        "identification": "5022892233",
+        "name": "POLIS CPQD",
+        "address": {
+          "street": "RUA DOUTOR RICARDO BENETTON MARTINS",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "POLO II DE ALTA TECNOLOGIA (CAMPINAS)",
+          "city": "CAMPINAS",
+          "zipCode": "13086902",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "TIPO_VAGA",
+              "name": "Tipo de estacionamento",
+              "description": "Qual é o tipo de estacionamento onde os EPs estão instalados?",
+              "listValues": [
+                {
+                  "code": "ON_DRIVEWAY",
+                  "name": "Entrada de veículos"
+                },
+                {
+                  "code": "UNDERGROUND_GARAGE",
+                  "name": "Garagem subterrânea"
+                },
+                {
+                  "code": "ON_STREET",
+                  "name": "Na rua"
+                },
+                {
+                  "code": "PARKING_GARAGE",
+                  "name": "Privado"
+                },
+                {
+                  "code": "ALONG_MOTORWAY",
+                  "name": "Próximo estrada"
+                },
+                {
+                  "code": "PARKING_LOT",
+                  "name": "Público"
+                }
+              ],
+              "type": "ListValues",
+              "defaultValue": ""
+            },
+            "value": "PARKING_GARAGE"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.81614946671662,
+        "longitude": -47.0465264022976,
+        "lastUpdateDate": "2023-11-23T15:03:12"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "DC",
+            "format": "Cable",
+            "maxElectricPower": 30.0,
+            "maxVoltage": 999.99,
+            "maxAmperage": 100.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-04-24T08:52:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-04-24T08:52:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "1107225056",
+        "name": "eWolf",
+        "model": {
+          "identification": "DC",
+          "name": "DC30kW",
+          "vendor": {
+            "identification": "SETEC-POWER",
+            "name": "SETEC-POWER"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 900,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2024-04-24T08:52:00"
+    },
+    {
+      "identification": "PE001",
+      "deviceIdentification": "37ab7f",
+      "externalIdentification": "100233",
+      "chargePointSerialNumber": "333333333",
+      "chargeBoxSerialNumber": null,
+      "chargePointVendor": "Power Electronics",
+      "chargePointModel": "NB 120",
+      "firmwareVersion": "4.1.0-5",
+      "ocppProtocolVersion": null,
+      "iccid": "8934013382221079337F",
+      "imsi": null,
+      "meterSerialNumber": null,
+      "meterType": null,
+      "latitude": -22.81614748583842,
+      "longitude": -47.0466343055731,
+      "chargeStation": {
+        "identification": "5022892233",
+        "name": "POLIS CPQD",
+        "address": {
+          "street": "RUA DOUTOR RICARDO BENETTON MARTINS",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "POLO II DE ALTA TECNOLOGIA (CAMPINAS)",
+          "city": "CAMPINAS",
+          "zipCode": "13086902",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "TIPO_VAGA",
+              "name": "Tipo de estacionamento",
+              "description": "Qual é o tipo de estacionamento onde os EPs estão instalados?",
+              "listValues": [
+                {
+                  "code": "ON_DRIVEWAY",
+                  "name": "Entrada de veículos"
+                },
+                {
+                  "code": "UNDERGROUND_GARAGE",
+                  "name": "Garagem subterrânea"
+                },
+                {
+                  "code": "ON_STREET",
+                  "name": "Na rua"
+                },
+                {
+                  "code": "PARKING_GARAGE",
+                  "name": "Privado"
+                },
+                {
+                  "code": "ALONG_MOTORWAY",
+                  "name": "Próximo estrada"
+                },
+                {
+                  "code": "PARKING_LOT",
+                  "name": "Público"
+                }
+              ],
+              "type": "ListValues",
+              "defaultValue": ""
+            },
+            "value": "PARKING_GARAGE"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.81614946671662,
+        "longitude": -47.0465264022976,
+        "lastUpdateDate": "2023-11-23T15:03:12"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "DC",
+            "format": "Cable",
+            "maxElectricPower": 120.0,
+            "maxVoltage": 100.0,
+            "maxAmperage": 999.99
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-03-11T08:19:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-03-11T08:19:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "5085300656",
+        "name": "PELNB120",
+        "model": {
+          "identification": "NB 120",
+          "name": "NB120",
+          "vendor": {
+            "identification": "Power Electronics",
+            "name": "POWERELECTRINICS"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 90,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2024-03-11T08:19:00"
+    },
+    {
+      "identification": "SGH2000",
+      "deviceIdentification": "c826f",
+      "externalIdentification": "100215",
+      "chargePointSerialNumber": "avt.001.13.1.01",
+      "chargeBoxSerialNumber": null,
+      "chargePointVendor": "AVT-Company",
+      "chargePointModel": "AVT-Express",
+      "firmwareVersion": "0.9.87",
+      "ocppProtocolVersion": null,
+      "iccid": "ICCID",
+      "imsi": "IMSI",
+      "meterSerialNumber": "avt.001.13.1.01",
+      "meterType": "AVT NQC-ACDC",
+      "latitude": -22.80120135357922,
+      "longitude": -47.02054711187967,
+      "chargeStation": {
+        "identification": "7355088231",
+        "name": "Estação Alphaville",
+        "address": {
+          "street": "RUA  JOÃO SALIM",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "PARQUE XANGRILÁ",
+          "city": "CAMPINAS",
+          "zipCode": "13098606",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "false"
+          },
+          {
+            "additionalInformation": {
+              "identification": "EM_MANUTENCAO",
+              "name": "Em manutenção",
+              "description": "A rede elétrica dos carregadores está em manutenção.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "false"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.80125681338959,
+        "longitude": -47.02056813997925,
+        "lastUpdateDate": "2023-11-23T15:04:23"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "AC_1",
+            "format": "Socket",
+            "maxElectricPower": 2.3,
+            "maxVoltage": 2.0,
+            "maxAmperage": 1.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2023-12-19T09:29:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2023-12-19T09:29:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "4873319377",
+        "name": "V11",
+        "model": {
+          "identification": "AVT-Express",
+          "name": "AVT-Express",
+          "vendor": {
+            "identification": "AVT-Company",
+            "name": "AVT-Company"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 90,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2023-12-19T09:29:00"
+    },
+    {
+      "identification": "SHG1000",
+      "deviceIdentification": "b03702",
+      "externalIdentification": "100213",
+      "chargePointSerialNumber": "avt.001.13.1.01",
+      "chargeBoxSerialNumber": "avt0011212",
+      "chargePointVendor": "AVT-Company",
+      "chargePointModel": "AVT-Express",
+      "firmwareVersion": "0.9.87",
+      "ocppProtocolVersion": null,
+      "iccid": "ICCID",
+      "imsi": "IMSI",
+      "meterSerialNumber": "avt.001.13.1.01",
+      "meterType": "AVT NQC-ACDC",
+      "latitude": -22.8012402102199,
+      "longitude": -47.02055477608238,
+      "chargeStation": {
+        "identification": "7355088231",
+        "name": "Estação Alphaville",
+        "address": {
+          "street": "RUA  JOÃO SALIM",
+          "number": 1000,
+          "complement": "",
+          "superDivision": "PARQUE XANGRILÁ",
+          "city": "CAMPINAS",
+          "zipCode": "13098606",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "false"
+          },
+          {
+            "additionalInformation": {
+              "identification": "EM_MANUTENCAO",
+              "name": "Em manutenção",
+              "description": "A rede elétrica dos carregadores está em manutenção.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "false"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [],
+        "latitude": -22.80125681338959,
+        "longitude": -47.02056813997925,
+        "lastUpdateDate": "2023-11-23T15:04:23"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "AC_1",
+            "format": "Socket",
+            "maxElectricPower": 7.0,
+            "maxVoltage": 380.0,
+            "maxAmperage": 63.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-03-13T11:54:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2024-03-13T11:54:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "V4",
+        "name": "CCS2",
+        "model": {
+          "identification": "DC Wallbox CE",
+          "name": "DC Wallbox CE",
+          "vendor": {
+            "identification": "pt.abb",
+            "name": "ABB"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 90,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2024-03-13T11:54:00"
+    },
+    {
+      "identification": "EMB12423665",
+      "deviceIdentification": "eddfff",
+      "externalIdentification": "100216",
+      "chargePointSerialNumber": "avt.001.13.1.01",
+      "chargeBoxSerialNumber": null,
+      "chargePointVendor": "AVT-Company",
+      "chargePointModel": "AVT-Express",
+      "firmwareVersion": "0.9.87",
+      "ocppProtocolVersion": null,
+      "iccid": "ICCID",
+      "imsi": "IMSI",
+      "meterSerialNumber": "avt.001.13.1.01",
+      "meterType": "AVT NQC-ACDC",
+      "latitude": -22.85710153631867,
+      "longitude": -47.04527854655427,
+      "chargeStation": {
+        "identification": "7242125824",
+        "name": "DHL CPFL",
+        "address": {
+          "street": "RODOVIA ENGENHEIRO MIGUEL NOEL NASCENTES BURNIER",
+          "number": 1755,
+          "complement": "",
+          "superDivision": "CHÁCARA PRIMAVERA",
+          "city": "CAMPINAS",
+          "zipCode": "13088900",
+          "state": {
+            "code": "SP",
+            "name": "SAO PAULO"
+          },
+          "country": {
+            "code": "BR",
+            "name": "BRASIL",
+            "defaultCountry": true
+          }
+        },
+        "owner": {
+          "documentNumber": "89436839000180",
+          "identification": "100116628",
+          "name": "PeD/CS3060",
+          "contactName": "CS3060",
+          "phone": null,
+          "email": "pedcs3060@cpqd.com.br",
+          "group": {
+            "identification": "84",
+            "name": "CPFL",
+            "companyIdentification": 2,
+            "externalIdentification": "100116295",
+            "picture": null,
+            "sumChargePoint": null,
+            "sumChargeStation": null
+          }
+        },
+        "additionalInformations": [
+          {
+            "additionalInformation": {
+              "identification": "TIPO_VAGA",
+              "name": "Tipo de estacionamento",
+              "description": "Qual é o tipo de estacionamento onde os EPs estão instalados?",
+              "listValues": [
+                {
+                  "code": "ON_DRIVEWAY",
+                  "name": "Entrada de veículos"
+                },
+                {
+                  "code": "UNDERGROUND_GARAGE",
+                  "name": "Garagem subterrânea"
+                },
+                {
+                  "code": "ON_STREET",
+                  "name": "Na rua"
+                },
+                {
+                  "code": "PARKING_GARAGE",
+                  "name": "Privado"
+                },
+                {
+                  "code": "ALONG_MOTORWAY",
+                  "name": "Próximo estrada"
+                },
+                {
+                  "code": "PARKING_LOT",
+                  "name": "Público"
+                }
+              ],
+              "type": "ListValues",
+              "defaultValue": ""
+            },
+            "value": "PARKING_GARAGE"
+          },
+          {
+            "additionalInformation": {
+              "identification": "VAGA_COBERTA",
+              "name": "Vaga coberta?",
+              "description": "O local que o veículo fica durante a recarga é coberto?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "false"
+          },
+          {
+            "additionalInformation": {
+              "identification": "EM_MANUTENCAO",
+              "name": "Em manutenção",
+              "description": "A rede elétrica dos carregadores está em manutenção.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "false"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "LOCAL_ILUMINADO",
+              "name": "Local iluminado?",
+              "description": "Existe uma iluminação própria e direcionada durante toda a noite para o local da recarga?",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          },
+          {
+            "additionalInformation": {
+              "identification": "PUBLICACAO",
+              "name": "Publicação",
+              "description": "Publicar dados da estação para todos os usuários? Responda Não se essa estação for de uso privativo.",
+              "listValues": null,
+              "type": "Boolean",
+              "defaultValue": "true"
+            },
+            "value": "true"
+          }
+        ],
+        "locationPoints": null,
+        "photos": [
+          {
+            "sequence": 0,
+            "type": "png",
+            "identification": "sv4wWyVtH6McqKjvNh8PDbGSry2Kf0HqP9UdFskY",
+            "url": "https://cs3060api.cpqd.com.br/cpo/chargeStation/7242125824/downloadPhoto?identification=sv4wWyVtH6McqKjvNh8PDbGSry2Kf0HqP9UdFskY",
+            "thumbnail": null,
+            "main": true
+          }
+        ],
+        "latitude": -22.85709959573233,
+        "longitude": -47.04526810846547,
+        "lastUpdateDate": "2024-03-08T16:13:22"
+      },
+      "owner": null,
+      "connectors": [
+        {
+          "identification": 1,
+          "modelVariationConnector": {
+            "identification": 1,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "DC",
+            "format": "Cable",
+            "maxElectricPower": 60.0,
+            "maxVoltage": 999.99,
+            "maxAmperage": 50.0
+          }
+        },
+        {
+          "identification": 2,
+          "modelVariationConnector": {
+            "identification": 2,
+            "connectorType": {
+              "identification": "IEC_62196_T2_COMBO",
+              "name": "CCS - Tipo 2"
+            },
+            "electricitySupply": "DC",
+            "format": "Cable",
+            "maxElectricPower": 60.0,
+            "maxVoltage": 999.99,
+            "maxAmperage": 50.0
+          }
+        }
+      ],
+      "status": [
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Available",
+            "name": "Disponível",
+            "situation": "Online",
+            "description": "Quando um Conector se torna disponível para recarga"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 0,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2023-12-19T09:37:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Charging",
+            "name": "Carregando",
+            "situation": "InUse",
+            "description": "Quando o contato de um conector fecha, permitindo que o veículo carregue"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 1,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2023-12-19T09:37:00"
+        },
+        {
+          "heartbeat": true,
+          "statusBeforeHeartbeat": {
+            "code": "Charging",
+            "name": "Carregando",
+            "situation": "InUse",
+            "description": "Quando o contato de um conector fecha, permitindo que o veículo carregue"
+          },
+          "errorBeforeHeartbeat": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "connectorIdentification": 2,
+          "status": {
+            "code": "Unavailable",
+            "name": "Indisponível",
+            "situation": "Offline",
+            "description": "Quando um Conector se torna indisponível ou um evento no qual o Ponto de Carregamento muda para indisponível a seu critério"
+          },
+          "error": {
+            "code": "NoError",
+            "description": "Nenhum erro reportado"
+          },
+          "errorDescription": "Indisponível por falta de heartbeat",
+          "updateDatetime": "2023-12-19T09:37:00"
+        }
+      ],
+      "modelVariation": {
+        "identification": "4561866305",
+        "name": "EMB120",
+        "model": {
+          "identification": "DH-DC1800SG58",
+          "name": "DH-DC1800SG58",
+          "vendor": {
+            "identification": "StarCharge",
+            "name": "StarCharge"
+          }
+        }
+      },
+      "situation": "Accepted",
+      "heartbeatInterval": 90,
+      "tariffRatingEventIdentification": null,
+      "lastUpdateDate": "2023-12-19T09:37:00"
+    }
+  ]
+}

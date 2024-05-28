@@ -1,0 +1,17 @@
+---
+version: "3.7"
+services:
+  cpqd-rede-eletrica:
+    image: ${CONTAINER_REPOSITORY}/${NAME}:${VERSION}
+    container_name: ${NAME}
+    hostname: ${NAME}
+    restart: always
+    env_file:
+      - ./.env
+    ports:
+      - "${PORT}:80"
+    networks:
+      - ${NETWORK}
+networks:
+  cpqd-network:
+    external: true

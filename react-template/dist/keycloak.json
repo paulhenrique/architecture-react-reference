@@ -1,0 +1,12 @@
+{
+  "realm": "CPQD-Portal",
+  "auth-server-url": "http://localhost:7006/",
+  "url": "http://localhost:7006/",
+  "ssl-required": "none",
+  "clientId": "Tracker",
+  "resource": "Tracker",
+  "public-client": true,
+  "verify-token-audience": true,
+  "use-resource-role-mappings": true,
+  "confidential-port": 0
+}

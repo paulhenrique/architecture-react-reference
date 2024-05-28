@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1715179382615" clover="3.2.0">
+  <project timestamp="1715179382615" name="All files">
+    <metrics statements="173" coveredstatements="145" conditionals="43" coveredconditionals="29" methods="81" coveredmethods="60" elements="297" coveredelements="234" complexity="0" loc="173" ncloc="173" packages="30" files="38" classes="38"/>
+    <package name="__test__">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="utils.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/__test__/utils.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="assets.icons">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="Conector.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/assets/icons/Conector.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="16" type="stmt"/>
+      </file>
+      <file name="Station.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/assets/icons/Station.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="9" count="24" type="stmt"/>
+      </file>
+    </package>
+    <package name="components">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/components/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.AppLayout">
+      <metrics statements="19" coveredstatements="18" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="5"/>
+      <file name="AppLayout.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/components/AppLayout/AppLayout.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+      </file>
+      <file name="AppMenu.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/components/AppLayout/AppMenu.tsx">
+        <metrics statements="16" coveredstatements="15" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="16" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/components/AppLayout/index.tsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.Breadcrumbs">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/components/Breadcrumbs/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Card">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/components/Card/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="33" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ConfirmModal">
+      <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/components/ConfirmModal/index.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="31" count="10" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="10" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="41" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Drawer">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/components/Drawer/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.DrawerContent">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/components/DrawerContent/index.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="15" type="stmt"/>
+        <line num="48" count="6" type="stmt"/>
+        <line num="49" count="15" type="stmt"/>
+        <line num="73" count="6" type="stmt"/>
+        <line num="74" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.RedeEletrica">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/components/RedeEletrica/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.SettingsSearchBox">
+      <metrics statements="11" coveredstatements="7" conditionals="7" coveredconditionals="5" methods="7" coveredmethods="1"/>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/components/SettingsSearchBox/index.tsx">
+        <metrics statements="11" coveredstatements="7" conditionals="7" coveredconditionals="5" methods="7" coveredmethods="1"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="49" count="5" type="stmt"/>
+        <line num="57" count="15" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="config">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="endpoints.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/config/endpoints.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="constants">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Status.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/constants/Status.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks.data">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="useChargePointServices.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/hooks/data/useChargePointServices.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="useStation.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/hooks/data/useStation.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="useStationStates.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/hooks/data/useStationStates.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks.useRedeEletrica">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/hooks/useRedeEletrica/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="mock">
+      <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="10" coveredmethods="10"/>
+      <file name="mirageServer.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/mock/mirageServer.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="10" coveredmethods="10"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="13" type="stmt"/>
+        <line num="40" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Home">
+      <metrics statements="20" coveredstatements="13" conditionals="17" coveredconditionals="12" methods="9" coveredmethods="2"/>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/pages/Home/index.tsx">
+        <metrics statements="20" coveredstatements="13" conditionals="17" coveredconditionals="12" methods="9" coveredmethods="2"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="99" count="8" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="130" count="4" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.RedeEletrica">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/pages/RedeEletrica/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Settings">
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/pages/Settings/index.tsx">
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="providers">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="AntdThemeProvider.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/providers/AntdThemeProvider.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="ReactQueryProvider.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/providers/ReactQueryProvider.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="ReduxProvider.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/providers/ReduxProvider.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/providers/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="routers">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="routes.tsx" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/routers/routes.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="services.ApiServices">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/services/ApiServices/index.ts">
+        <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="services.ChargePointService">
+      <metrics statements="11" coveredstatements="3" conditionals="5" coveredconditionals="1" methods="5" coveredmethods="2"/>
+      <file name="index.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/services/ChargePointService/index.ts">
+        <metrics statements="11" coveredstatements="3" conditionals="5" coveredconditionals="1" methods="5" coveredmethods="2"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="52" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="services.DateServices">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/services/DateServices/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="3" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="services.RedeEletrica">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/services/RedeEletrica/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="services.StationsService">
+      <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="5"/>
+      <file name="index.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/services/StationsService/index.ts">
+        <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="5"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="53" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="services.StatusServices">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/services/StatusServices/index.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="33" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="services.UtilServices">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/services/UtilServices/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="store">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/store/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="store.features.redeEletricaSlice">
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="index.ts" path="/l/disk0/pcandido/dev/arara/temporario/redeEletrica/src/store/features/redeEletricaSlice/index.ts">
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
