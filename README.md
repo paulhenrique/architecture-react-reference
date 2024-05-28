@@ -1,5 +1,5 @@
-# Arquitetura frontend orientada a dados
-Uma apresentação de como utilizar o Mirage JS como uma alternativa interessante para mock no cotidiano dev. Isso pensando em uma forma de arquitetura orientada a dados para isolar esse tipo de chamada.
+# Referência de Arquitetura para projetos React 
+Esse repositório reúne diferentes recursos para a construção de uma arquitetura de referências comum para projetos React que permite que os desenvolvedores possam adotar o mesmo padrão em diferentes contextos utilizando bons recursos de desenvolvimento e bases de tecnologia.
 
 ## Author
 
